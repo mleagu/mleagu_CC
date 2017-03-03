@@ -1,0 +1,8 @@
+<div fxLayout="row" fxLayoutAlign="center center" class="full-height"  style="text-align: center;">
+    <div *ngIf="!user">
+        <landing-page></landing-page>
+    </div>
+    <div *ngIf="user">
+        <bets-list></bets-list>
+    </div>
+</div>
